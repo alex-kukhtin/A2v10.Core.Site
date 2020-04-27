@@ -1,0 +1,13 @@
+﻿AddDefaultCharset utf-8
+
+DirectoryIndex  html/index.html
+ErrorDocument 404 /html/404.html
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^.*\.(html|css|js)$ - [PT,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ html/$0.html [PT,L]

@@ -1,9 +1,13 @@
-﻿#http://localhost:49169
+﻿;TODO: config.json
+#http://localhost:49169
 ; pages
 /
 /uk/privacy
 /en
 /en/privacy
+; common
+/.htaccess
+/favicon.ico
 ; js
 /lib/jquery/dist/jquery.min.js
 /lib/bootstrap/dist/js/bootstrap.bundle.min.js

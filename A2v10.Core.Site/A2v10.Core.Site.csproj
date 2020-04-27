@@ -12,6 +12,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="staticsite.config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="staticsite.config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="A2v10.Data.Core" Version="10.0.7239" />
   </ItemGroup>
 

@@ -26,6 +26,7 @@ namespace SiteBuilder
 		public async Task ProcessOneFile(String fileName)
 		{
 			Console.WriteLine($"url: '{fileName}'");
+
 			using var response = await _httpClient.GetAsync(_url + fileName);
 			var result = await response.Content.ReadAsStringAsync();
 			if (fileName == "/")

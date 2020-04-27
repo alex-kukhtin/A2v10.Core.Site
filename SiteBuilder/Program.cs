@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -10,6 +11,10 @@ namespace SiteBuilder
 		{
 			String siteMapPath = "../../../sitemap.txt";
 			String targetPath = "d:/temp/staticsite";
+
+			String json = "{}";
+
+			var config = JsonConvert.DeserializeObject<Config>(json);
 
 			var lines = File.ReadAllLines(siteMapPath);
 			var siteProcessor = new SiteProcessor(targetPath);

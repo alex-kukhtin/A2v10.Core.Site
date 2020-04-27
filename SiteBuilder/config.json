@@ -1,0 +1,21 @@
+﻿{
+	"source": "http://localhost:49169",
+	"root": "wwwroot",
+	"files": [
+		".htaccess",
+		"favicon.ico",
+		"lib/jquery/dist/jquery.min.js",
+		"lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+		"lib/vue/vue.js",
+		"js/site.js",
+		"lib/bootstrap/dist/css/bootstrap.min.css",
+		"css/site.css"
+
+	],
+	"urls": [
+		"/",
+		"uk/privacy",
+		"en",
+		"en/privacy"
+	]
+}
