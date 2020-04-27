@@ -1,0 +1,26 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"module": "amd",
+		"target": "es2017",
+		"sourceMap": false,
+		"removeComments": true,
+		"listFiles": false,
+		"baseUrl": ".",
+		"traceResolution": false,
+		"lib": [ "es2017", "dom" ],
+		"typeRoots": [ "@types" ],
+		"emitBOM": true,
+		"charset": "utf8",
+		"paths": {
+		},
+		"outFile": "../wwwroot/js/output211.js"
+	},
+	"include": [
+		"./**/*.ts"
+	],
+	"files": [
+		"test.ts",
+		"test2.ts"
+	]
+}

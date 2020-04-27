@@ -1,0 +1,14 @@
+﻿#http://localhost:49169
+; pages
+/
+/uk/privacy
+/en
+/en/privacy
+; js
+/lib/jquery/dist/jquery.min.js
+/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+/lib/vue/vue.js
+/js/site.js
+; css
+/lib/bootstrap/dist/css/bootstrap.min.css
+/css/site.css
