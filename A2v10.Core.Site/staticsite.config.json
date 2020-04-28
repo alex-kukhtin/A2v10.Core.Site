@@ -1,24 +1,30 @@
 ﻿{
 	"source": "http://localhost:49169",
-	"root": "wwwroot",
+	"target": "../StaticSite",
+	"fileSource": "wwwroot",
 	"files": [
-		".htaccess",
-		"favicon.ico",
-		"lib/jquery/dist/jquery.min.js",
-		"lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-		"lib/vue/vue.js",
-		"js/site.js",
-		"lib/bootstrap/dist/css/bootstrap.min.css",
-		"css/site.css"
-
+		".htaccess"
 	],
-	"urls": [
+	"pages": [
 		"/",
 		"uk/privacy",
 		"en",
 		"en/privacy"
 	],
-	"sitemap": "text",
+	"static": [
+		"favicon.ico",
+		"lib/jquery/jquery.min.js",
+		"lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+		"lib/vue/vue.js",
+		"js/site.js",
+		"lib/bootstrap/dist/css/bootstrap.min.css",
+		"css/site.css"
+	],
+	"makezip": true,
+	"sitemap": {
+		"host": "http://site.a2.dn.ua",
+		"format": "text"
+	},
 	"deploy": {
 		"type": "ftp"
 	}

@@ -1,16 +1,24 @@
 {
-  "version": "1.0",
-  "defaultProvider": "cdnjs",
-  "libraries": [
-    {
-      "library": "vue@2.6.10",
-      "destination": "wwwroot/lib/vue/",
-        "files": [
-            "vue.min.js",
-            "vue.js",
-            "vue.esm.browser.js",
-            "vue.esm.browser.min.js"
-        ]
-    }
-  ]
+	"version": "1.0",
+	"defaultProvider": "cdnjs",
+	"libraries": [
+		{
+			"library": "vue@2.6.10",
+			"destination": "wwwroot/lib/vue/",
+			"files": [
+				"vue.min.js",
+				"vue.js",
+				"vue.esm.browser.js",
+				"vue.esm.browser.min.js"
+			]
+		},
+		{
+			"library": "jquery@3.5.0",
+			"destination": "wwwroot/lib/jquery/",
+			"files": [
+				"jquery.min.js",
+				"jquery.js"
+			]
+		}
+	]
 }

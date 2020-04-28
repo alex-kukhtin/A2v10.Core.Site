@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SiteBuilder": {
+      "commandName": "Project",
+      "commandLineArgs": "staticsite.config.json",
+      "workingDirectory": "../A2v10.Core.Site"
+    }
+  }
+}
