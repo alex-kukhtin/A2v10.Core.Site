@@ -13,12 +13,22 @@
 			]
 		},
 		{
-			"library": "jquery@3.5.0",
+			"library": "jquery@3.4.1",
 			"destination": "wwwroot/lib/jquery/",
 			"files": [
 				"jquery.min.js",
 				"jquery.js"
 			]
+		},
+		{
+			"provider": "jsdelivr",
+			"library": "bootstrap@latest",
+			"destination": "wwwroot/lib/bootstrap",
+			"files": [
+				"dist/css/bootstrap.min.css",
+				"dist/js/bootstrap.bundle.min.js"
+			]
+
 		}
 	]
 }
