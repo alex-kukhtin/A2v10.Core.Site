@@ -1,0 +1,14 @@
+﻿
+samples
+==============
+https://phoenixframework.org/
+
+
+tricks
+=================
+https://css-tricks.com/styling-based-on-scroll-position/
+
+icons
+https://primer.style/octicons/
+https://ionicons.com/ (! from here)
+https://feathericons.com/

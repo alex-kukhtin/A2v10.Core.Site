@@ -17,8 +17,7 @@
 		"lib/bootstrap/dist/js/bootstrap.bundle.min.js",
 		"lib/vue/vue.js",
 		"js/site.js",
-		"lib/bootstrap/dist/css/bootstrap.min.css",
-		"css/site.css"
+		"css/site.min.css"
 	],
 	"makezip": true,
 	"sitemap": {

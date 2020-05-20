@@ -1,2 +1,9 @@
 [
+	{
+		"outputFileName": "wwwroot/js/site.js",
+		"inputFiles": [
+			"scripts/scrollspy.js",
+			"scripts/collapse.js"
+		]
+	}
 ]
