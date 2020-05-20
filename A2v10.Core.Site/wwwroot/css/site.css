@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #de3163;
+  --primary: #dd2c5e;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -130,11 +130,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #de3163;
+  color: #dd2c5e;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #a81b44;
+    color: #a21a41;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -1088,6 +1088,26 @@ mark,
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+.fade {
+  transition: opacity 0.15s linear; }
+  @media (prefers-reduced-motion: reduce) {
+    .fade {
+      transition: none; } }
+  .fade:not(.show) {
+    opacity: 0; }
+
+.collapse:not(.show) {
+  display: none; }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease; }
+  @media (prefers-reduced-motion: reduce) {
+    .collapsing {
+      transition: none; } }
+
 .navbar {
   position: relative;
   display: flex;
@@ -1574,12 +1594,12 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #de3163 !important; }
+  background-color: #dd2c5e !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #be1e4c !important; }
+  background-color: #b81e49 !important; }
 
 .bg-secondary {
   background-color: #6c757d !important; }
@@ -1674,7 +1694,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #de3163 !important; }
+  border-color: #dd2c5e !important; }
 
 .border-secondary {
   border-color: #6c757d !important; }
@@ -3910,10 +3930,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #de3163 !important; }
+  color: #dd2c5e !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #a81b44 !important; }
+  color: #a21a41 !important; }
 
 .text-secondary {
   color: #6c757d !important; }
@@ -4039,8 +4059,8 @@ body.has-scroll header > nav {
   height: 24px; }
 
 .ico.ico-primary {
-  fill: #de3163;
-  stroke: #de3163; }
+  fill: #dd2c5e;
+  stroke: #dd2c5e; }
 
 .ico.ico-light {
   fill: #f8f9fa;
@@ -4049,8 +4069,11 @@ body.has-scroll header > nav {
     fill: #e9ecef;
     stroke: #e9ecef; }
 
-.card-title svg {
-  margin-right: 10px; }
+.card-title.with-icon {
+  display: inline-flex;
+  align-items: center; }
+  .card-title.with-icon svg {
+    margin-right: 15px; }
 
 .mh-130 {
   min-height: 130px; }

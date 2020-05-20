@@ -12,3 +12,8 @@ icons
 https://primer.style/octicons/
 https://ionicons.com/ (! from here)
 https://feathericons.com/
+
+
+//TODO:
+=======
+1. Переделать collapse на атрибут data-target='' и поменять aria-expanded как в BS.
