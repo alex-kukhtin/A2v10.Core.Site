@@ -6,22 +6,16 @@
 		".htaccess"
 	],
 	"pages": [
-		"/",
-		"uk/privacy",
-		"en",
-		"en/privacy"
+		"/"
 	],
 	"static": [
 		"favicon.ico",
-		"lib/jquery/jquery.min.js",
-		"lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-		"lib/vue/vue.js",
-		"js/site.js",
+		"js/site.min.js",
 		"css/site.min.css"
 	],
 	"makezip": true,
 	"sitemap": {
-		"host": "http://site.a2.dn.ua",
+		"host": "https://a2v10.com",
 		"format": "text"
 	},
 	"deploy": {

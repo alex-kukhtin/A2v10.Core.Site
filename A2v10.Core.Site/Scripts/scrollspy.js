@@ -1,4 +1,5 @@
-﻿
+﻿/*! Copyright © 2012-2017 Alex Kukhtin. All rights reserved. */
+
 (function () {
 	if (window.IntersectionObserver && window.IntersectionObserverEntry) {
 		new IntersectionObserver(entries => {
