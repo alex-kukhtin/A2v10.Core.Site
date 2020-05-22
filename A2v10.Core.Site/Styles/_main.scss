@@ -36,11 +36,11 @@ section.main {
 }
 
 /* scroll spy */
-body.has-scroll {
-	header > nav {
-		box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
-	}
+body.has-scroll header > nav, nav.bottom-shadow
+{
+	box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
+
 
 #scrollspy {
 	position:relative;

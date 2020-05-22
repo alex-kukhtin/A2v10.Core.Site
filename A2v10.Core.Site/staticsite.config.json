@@ -6,12 +6,18 @@
 		".htaccess"
 	],
 	"pages": [
-		"/"
+		"/",
+		"uk/contacts",
+		"en/error"
 	],
 	"static": [
 		"favicon.ico",
 		"js/site.min.js",
-		"css/site.min.css"
+		"js/site.js",
+		"css/site.css",
+		"css/site.min.css",
+		"manifest.json",
+		"robots.txt"
 	],
 	"makezip": true,
 	"sitemap": {

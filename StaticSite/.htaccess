@@ -1,7 +1,7 @@
 AddDefaultCharset utf-8
 
 DirectoryIndex  html/index.html
-ErrorDocument 404 /html/404.html
+ErrorDocument 404 /html/en/error.html
 
 RewriteEngine On
 RewriteBase /

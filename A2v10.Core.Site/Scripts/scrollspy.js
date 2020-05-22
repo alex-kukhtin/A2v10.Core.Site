@@ -1,14 +1,15 @@
-﻿/*! Copyright © 2012-2017 Alex Kukhtin. All rights reserved. */
+﻿/*! Copyright © 2012-2020 Alex Kukhtin. All rights reserved. */
 
 (function () {
 	if (window.IntersectionObserver && window.IntersectionObserverEntry) {
+		let target = document.querySelector("#scrollspy");
+		if (!target) return;
 		new IntersectionObserver(entries => {
 			let dy = entries[0].boundingClientRect.y;
 			if (dy < 0)
 				document.body.classList.add('has-scroll');
 			else
 				document.body.classList.remove('has-scroll');
-		})
-		.observe(document.querySelector("#scrollspy"));
+		}).observe(target);
 	}
 })();
