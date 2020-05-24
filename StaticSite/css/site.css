@@ -4,6 +4,64 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@font-face {
+  font-family: "A2v10site";
+  src: url("/css/fonts/a2v10site.woff?v=10.0.21") format("woff");
+  font-size: 20px; }
+
+.ico {
+  font-family: A2v10site;
+  font-style: normal;
+  font-weight: normal; }
+
+.ico-24 {
+  font-size: 24px;
+  line-height: 24px; }
+
+.ico-32 {
+  font-size: 32px;
+  line-height: 32px; }
+
+.ico-64 {
+  font-size: 64px;
+  line-height: 64px; }
+
+.ico-primary {
+  color: #dd2c5e; }
+
+.ico-light {
+  color: #f8f9fa; }
+
+.ico-a2v10-logo::after {
+  content: "\e814"; }
+
+.ico-github:after {
+  content: "\e86f"; }
+
+.ico-facebook:after {
+  content: "\e870"; }
+
+.ico-javascript:after {
+  content: "\e871"; }
+
+.ico-linkedin:after {
+  content: "\e872"; }
+
+.ico-youtube:after {
+  content: "\e873"; }
+
+.ico-cloud-outline:after {
+  content: "\e8ac"; }
+
+.ico-server-outline:after {
+  content: "\e8ad"; }
+
+.ico-layers-outline::after {
+  content: "\e8ae"; }
+
+.ico-tv-outline::after {
+  content: "\e8af"; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1971,6 +2029,30 @@ button.bg-dark:focus {
     width: 100%;
     height: 100%;
     border: 0; }
+
+.embed-responsive-21by9::before {
+  padding-top: 42.85714%; }
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%; }
+
+.embed-responsive-4by3::before {
+  padding-top: 75%; }
+
+.embed-responsive-1by1::before {
+  padding-top: 100%; }
+
+.embed-responsive-21by9::before {
+  padding-top: 42.85714%; }
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%; }
+
+.embed-responsive-4by3::before {
+  padding-top: 75%; }
+
+.embed-responsive-1by1::before {
+  padding-top: 100%; }
 
 .embed-responsive-21by9::before {
   padding-top: 42.85714%; }
@@ -4083,6 +4165,11 @@ body {
   padding-top: 56px;
   margin-bottom: 52px; }
 
+header .ico-a2v10-logo {
+  font-size: 36px;
+  line-height: 20px;
+  margin-right: 15px; }
+
 footer {
   position: absolute;
   bottom: 0;
@@ -4090,9 +4177,11 @@ footer {
   height: 52px;
   line-height: 24px; }
   footer .links {
-    margin: 0 -10px; }
+    margin: 0 -5px; }
     footer .links a {
-      margin: 0 10px; }
+      margin: 0 5px; }
+      footer .links a:hover {
+        text-decoration: none; }
 
 section.main {
   padding-bottom: 1.5rem;
@@ -4109,34 +4198,10 @@ body.has-scroll header > nav, nav.bottom-shadow {
   position: relative;
   top: -56px; }
 
-/* icons */
-.ico.ico-64 {
-  width: 64px;
-  height: 64px; }
-
-.ico.ico-32 {
-  width: 32px;
-  height: 32px; }
-
-.ico.ico-24 {
-  width: 24px;
-  height: 24px; }
-
-.ico.ico-primary {
-  fill: #dd2c5e;
-  stroke: #dd2c5e; }
-
-.ico.ico-light {
-  fill: #f8f9fa;
-  stroke: #f8f9fa; }
-  .ico.ico-light:hover {
-    fill: #e9ecef;
-    stroke: #e9ecef; }
-
 .card-title.with-icon {
   display: inline-flex;
   align-items: center; }
-  .card-title.with-icon svg {
+  .card-title.with-icon .ico {
     margin-right: 15px; }
 
 .mh-130 {

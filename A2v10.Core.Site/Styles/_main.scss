@@ -10,6 +10,14 @@ body {
 	margin-bottom:52px;
 }
 
+header {
+	.ico-a2v10-logo {
+		font-size:36px;
+		line-height:20px;
+		margin-right:15px;
+	}
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -18,10 +26,13 @@ footer {
 	line-height: 24px;
 
 	.links {
-		margin: 0 -10px;
+		margin: 0 -5px;
 
 		a {
-			margin: 0 10px;
+			margin: 0 5px;
+			&:hover {
+				text-decoration:none;
+			}
 		}
 	}
 }
@@ -47,44 +58,11 @@ body.has-scroll header > nav, nav.bottom-shadow
 	top:-56px;
 }
 
-/* icons */
-.ico {
-	&.ico-64 {
-		width: 64px;
-		height: 64px;
-	}
-
-	&.ico-32 {
-		width: 32px;
-		height: 32px;
-	}
-
-	&.ico-24 {
-		width: 24px;
-		height: 24px;
-	}
-
-	&.ico-primary {
-		fill: $primary;
-		stroke: $primary;
-	}
-
-	&.ico-light {
-		fill: $light;
-		stroke: $light;
-
-		&:hover {
-			fill: $gray-200;
-			stroke: $gray-200;
-		}
-	}
-}
-
 // card
 .card-title.with-icon {
 	display:inline-flex;
 	align-items:center;
-	svg {
+	.ico {
 		margin-right:15px;
 	}
 }

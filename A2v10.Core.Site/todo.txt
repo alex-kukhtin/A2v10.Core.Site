@@ -13,8 +13,19 @@ https://primer.style/octicons/
 https://ionicons.com/ (! from here)
 https://feathericons.com/
 
+create-font
+https://inkscape-manuals.readthedocs.io/en/latest/creating-custom-fonts.html
+icons (ionicons) D:\Web\ionicons-master\src\svg. Source:https://ionicons.com
+
+font-converter
+https://www.font-converter.net/en
+
 
 //TODO:
 =======
 2. Доделать страницу 404
+
+
+
+
 

@@ -28,5 +28,10 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IconFont\" />
+    <Folder Include="wwwroot\css\fonts\" />
+  </ItemGroup>
 	
 </Project>

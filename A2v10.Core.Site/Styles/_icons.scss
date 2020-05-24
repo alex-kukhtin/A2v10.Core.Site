@@ -1,0 +1,77 @@
+﻿@import "variables";
+
+@import "variables";
+
+@font-face {
+	font-family: "A2v10site";
+	src: url("/css/fonts/a2v10site.woff?v=10.0.21") format("woff");
+	font-size:20px;
+}
+
+.ico {
+	font-family: A2v10site;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.ico-24 {
+	font-size: 24px;
+	line-height:24px;
+}
+
+.ico-32 {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.ico-64 {
+	font-size:64px;
+	line-height:64px;
+}
+
+.ico-primary {
+	color:$primary;
+}
+
+.ico-light {
+	color:$light;
+}
+
+.ico-a2v10-logo::after {
+	content: "\e814";
+}
+.ico-github:after {
+	content: "\e86f";
+}
+
+.ico-facebook:after {
+	content: "\e870";
+}
+
+.ico-javascript:after {
+	content: "\e871";
+}
+
+.ico-linkedin:after {
+	content: "\e872";
+}
+
+.ico-youtube:after {
+	content: "\e873";
+}
+
+.ico-cloud-outline:after {
+	content: "\e8ac";
+}
+
+.ico-server-outline:after {
+	content: "\e8ad";
+}
+
+.ico-layers-outline::after {
+	content: "\e8ae";
+}
+
+.ico-tv-outline::after {
+	content: "\e8af";
+}

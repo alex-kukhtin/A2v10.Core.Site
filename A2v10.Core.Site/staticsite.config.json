@@ -16,6 +16,7 @@
 		"js/site.js",
 		"css/site.css",
 		"css/site.min.css",
+		"css/fonts/a2v10site.woff",
 		"manifest.json",
 		"robots.txt"
 	],
