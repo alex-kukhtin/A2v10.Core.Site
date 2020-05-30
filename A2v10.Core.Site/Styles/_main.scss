@@ -71,3 +71,31 @@ body.has-scroll header > nav, nav.bottom-shadow
 .mh-130 {
 	min-height:130px;
 }
+
+.img-card {
+	background:no-repeat center/cover;
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	min-height:130px;
+	background-color:#f0f0f0;
+	svg {
+		width:60%;
+		height:60%;
+	}
+}
+
+.card {
+	height:100%;
+	.card-body {
+		line-height: 1.2em;
+	}
+}
+
+.text-page {
+	h2, h3, h4 {
+		color:rgba(0, 0, 0, 0.5);
+		margin-top:1.5rem;
+		margin-bottom:1rem;
+	}
+}

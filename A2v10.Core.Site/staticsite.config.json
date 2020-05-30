@@ -8,6 +8,7 @@
 	"pages": [
 		"/",
 		"uk/contacts",
+		"uk/introduction",
 		"en/error"
 	],
 	"static": [
@@ -18,7 +19,12 @@
 		"css/site.min.css",
 		"css/fonts/a2v10site.woff",
 		"manifest.json",
-		"robots.txt"
+		"robots.txt",
+		"img/bk-img-345-175-b.jpg",
+		"img/kv-img-345-175-b.jpg",
+		"img/mv-img-345-175-b.jpg",
+		"img/a2v10home.svg",
+		"img/a2_logo_256.png"
 	],
 	"makezip": true,
 	"sitemap": {
