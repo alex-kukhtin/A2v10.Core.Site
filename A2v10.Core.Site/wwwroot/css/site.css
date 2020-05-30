@@ -7,7 +7,8 @@
 @font-face {
   font-family: "A2v10site";
   src: url("/css/fonts/a2v10site.woff?v=10.0.21") format("woff");
-  font-size: 20px; }
+  font-size: 20px;
+  font-display: swap; }
 
 .ico {
   font-family: A2v10site;
@@ -4673,4 +4674,7 @@ body.has-scroll header > nav, nav.bottom-shadow {
 .text-page h2, .text-page h3, .text-page h4 {
   color: rgba(0, 0, 0, 0.5);
   margin-top: 1.5rem;
+  margin-bottom: 1rem; }
+
+.simple-list.li-mb-3 li {
   margin-bottom: 1rem; }

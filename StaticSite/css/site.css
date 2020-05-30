@@ -7,7 +7,8 @@
 @font-face {
   font-family: "A2v10site";
   src: url("/css/fonts/a2v10site.woff?v=10.0.21") format("woff");
-  font-size: 20px; }
+  font-size: 20px;
+  font-display: swap; }
 
 .ico {
   font-family: A2v10site;
