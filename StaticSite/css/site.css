@@ -4621,9 +4621,12 @@ footer {
   height: 52px;
   line-height: 24px; }
   footer .links {
-    margin: 0 -5px; }
+    margin: 0 -5px;
+    line-height: 1; }
     footer .links a {
-      margin: 0 5px; }
+      margin: 0 5px;
+      padding: 0 2px;
+      display: inline-block; }
       footer .links a:hover {
         text-decoration: none; }
 

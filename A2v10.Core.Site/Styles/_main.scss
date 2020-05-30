@@ -27,9 +27,12 @@ footer {
 
 	.links {
 		margin: 0 -5px;
+		line-height:1;
 
 		a {
 			margin: 0 5px;
+			padding:0 2px;
+			display:inline-block;
 			&:hover {
 				text-decoration:none;
 			}
