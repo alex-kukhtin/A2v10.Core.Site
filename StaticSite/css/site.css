@@ -4675,3 +4675,6 @@ body.has-scroll header > nav, nav.bottom-shadow {
   color: rgba(0, 0, 0, 0.5);
   margin-top: 1.5rem;
   margin-bottom: 1rem; }
+
+.simple-list.li-mb-3 li {
+  margin-bottom: 1rem; }
