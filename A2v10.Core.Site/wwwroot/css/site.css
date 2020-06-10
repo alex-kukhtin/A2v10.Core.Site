@@ -51,6 +51,12 @@
 .ico-youtube:after {
   content: "\e873"; }
 
+.ico-settings:after {
+  content: "\e8aa"; }
+
+.ico-git-compare:after {
+  content: "\e8ab"; }
+
 .ico-cloud-outline:after {
   content: "\e8ac"; }
 
@@ -4622,18 +4628,26 @@ footer {
   height: 52px;
   line-height: 24px; }
   footer .links {
-    margin: 0 -5px;
+    margin: 0 -.75rem;
     line-height: 1; }
     footer .links a {
-      margin: 0 5px;
+      margin: 0 .75rem;
       padding: 0 2px;
       display: inline-block; }
       footer .links a:hover {
         text-decoration: none; }
 
-section.main {
-  padding-bottom: 1.5rem;
+section {
+  padding-bottom: 1rem;
   padding-top: 2.5rem; }
+
+section.banner {
+  padding-bottom: 2.5rem;
+  padding-top: 1.5rem; }
+
+section.top {
+  padding-bottom: 2.5rem;
+  padding-top: 1.5rem; }
 
 .t-shadow {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22); }

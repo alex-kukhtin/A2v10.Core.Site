@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 version="1.1" width="442px" height="352px"
-	 viewBox="-0.5 -0.5 442 352">
+	 version="1.1"
+	 viewBox="-0.5 -0.5 442 352" preserveAspectRatio="xMaxYMid meet">
 	<g>
 		<rect x="4.12" y="250" width="436.88" height="100" rx="15" ry="15" fill="none" stroke="#ffffff" stroke-width="2" transform="rotate(180,222.56,300)" pointer-events="all" />
 		<g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 435px; height: 1px; padding-top: 247px; margin-left: 5px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 18px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Data Layer</div></div></div></foreignObject><text x="223" y="247" fill="#FFFFFF" font-family="Helvetica" font-size="18px" text-anchor="middle">Data Layer</text></switch></g>

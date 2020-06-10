@@ -26,11 +26,11 @@ footer {
 	line-height: 24px;
 
 	.links {
-		margin: 0 -5px;
+		margin: 0 -.75rem;
 		line-height:1;
 
 		a {
-			margin: 0 5px;
+			margin: 0 .75rem;
 			padding:0 2px;
 			display:inline-block;
 			&:hover {
@@ -40,9 +40,19 @@ footer {
 	}
 }
 
-section.main {
-	padding-bottom:1.5rem;
+section {
+	padding-bottom:1rem;
 	padding-top:2.5rem;
+}
+
+section.banner {
+	padding-bottom:2.5rem;
+	padding-top:1.5rem;
+}
+
+section.top {
+	padding-bottom: 2.5rem;
+	padding-top: 1.5rem;
 }
 
 .t-shadow {
