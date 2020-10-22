@@ -12,8 +12,10 @@
 	],
 	"urls": [
 		"/",
-		"uk/privacy",
+		"uk/introduction",
+		"uk/downloads",
 		"en",
-		"en/privacy"
+		"en/introduction",
+		"en/downloads"
 	]
 }

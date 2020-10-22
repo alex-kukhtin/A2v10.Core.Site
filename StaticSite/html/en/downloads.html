@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="A2v10 - a platform for fast development of business applications" />
 	<meta name="theme-color" content="#dd2c5e" />
-	<title>Error</title>
+	<title>Downloads</title>
 
 	<meta property="og:description" content="A2v10. Applications for business" />
 	<meta property="og:title" content="A2v10 Platform" />
@@ -20,7 +20,7 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-sm navbar-toggleable-sm">
+		<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-sm navbar-toggleable-sm bottom-shadow">
 			<div class="container">
 				<a href="/" class="navbar-brand d-inline-flex align-items-center">
 					<i class="ico ico-a2v10-logo"></i>
@@ -58,24 +58,93 @@
 		</nav>
 	</header>
 	<main role="main">
-		
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+		<section class="top">
+	<div class="container text-page">
 
-    <p>
-        <strong>Request ID:</strong> <code>|4f10f72e-45b87033c12585a8.</code>
-    </p>
+		<h2>Downloads</h2>
 
-<h3>Development Mode</h3>
-<p>
-    Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
-</p>
-<p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
-    and restarting the app.
-</p>
+		<p>
+			On this page, you will find everything you need for the development of the A2v10 business applications.
+			These are the installation packages, NuGet packages for developers, Chrome extensions, etc.
+		</p>
+
+		<h4>NuGet packages (NET.Framework)</h4>
+
+		<ul class="simple-list">
+			<li><a class="page-link" rel="noopener" href="https://www.nuget.org/packages/a2v10.web.runtime" target="_blank">A2v10.Web.Runtime</a>.
+			Full A2v10 platform. (NET framework 4.6.1)</li>
+			<li><a class="page-link" rel="noopener" href="https://www.nuget.org/packages/a2v10.web.mvc" target="_blank">A2v10.Web.Mvc</a>.
+			Package for Site-mode development.</li>
+		</ul>
+
+		<h4>NuGet packages (NET.Core)</h4>
+
+		<ul class="simple-list">
+			<li>
+				<a class="page-link" rel="noopener" href="https://www.nuget.org/packages/a2v10.data.interfaces" target="_blank">A2v10.Data.Interfaces</a>.
+				A2v10 Data Model abstractions.
+			</li>
+			<li>
+				<a class="page-link" rel="noopener" href="https://www.nuget.org/packages/a2v10.data.core" target="_blank">A2v10.Data.Core</a>.
+				A2v10 Data model. Full package.
+			</li>
+			<li>
+				<a class="page-link" rel="noopener" href="https://www.nuget.org/packages/a2v10.data.providers" target="_blank">A2v10.Data.Providers</a>.
+				A2v10 Data Model. Workinng with external data providers (*.dbf, *.csv, etc).
+			</li>
+		</ul>
+
+		<h4>Installation packages (msi)</h4>
+
+		<ul class="simple-list">
+			<li>
+				<a class="page-link" rel="noopener" href="https://github.com/alex-kukhtin/a2v10/releases" target="_blank">A2v10.Web.Runtime</a>.
+				A2v10 full version installation package.
+			</li>
+		</ul>
+
+		<h4>Testing</h4>
+
+		<ul class="simple-list">
+			<li>
+				<a class="page-link" rel="noopener" href="https://github.com/alex-kukhtin/A2v10.tests.browser/releases" target="_blank">A2v10.Tests.Browser</a>.
+				Browser test module installation package (Chromium).
+			</li>
+		</ul>
+
+		<h4>Working with external equipment</h4>
+
+		<ul class="simple-list">
+			<li>
+				<a class="page-link" rel="noopener" href="https://github.com/alex-kukhtin/a2v10.browser.companion/releases" target="_blank">A2v10.Browser.Companion</a>.
+				A2v10 Native Messaging Host installation package. Designed to works with external equipment directly from the browser.
+			</li>
+			<li>
+				<a class="page-link" rel="noopener" href="https://chrome.google.com/webstore/detail/a2v10-equipment-host/knopcophdgepmijgkhdehmbkmkalhidj" target="_blank">A2v10 Equipment Host</a>.
+				Chrome Extension. Communicate with A2v10 native messaging host.
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="bg-light pb-5">
+	<div class="container text-page">
+		<h2>A2. Previous versions</h2>
+
+		<h4>Utilities (source code)</h4>
+
+		<ul class="simple-list">
+			<li>
+				<a class="page-link" rel="noopener" href="https://github.com/alex-kukhtin/a2.replication" target="_blank">A2.Replication</a>.
+				Lightweight simple replication system for Microsoft SQL-Server.
+			</li>
+			<li>
+				<a class="page-link" rel="noopener" href="https://github.com/alex-kukhtin/dw.loader" target="_blank">DW.Loader</a>.
+				Simple Data Warehouse for Microsoft SQL-Server.
+			</li>
+		</ul>
+	</div>
+</section>
+
 
 	</main>
 

@@ -32,11 +32,15 @@ namespace A2v10.Core.Site.Controllers
 			return View();
 		}
 
-		public IActionResult introduction()
+		public IActionResult Introduction()
 		{
 			return View();
 		}
 
+		public IActionResult Downloads()
+		{
+			return View();
+		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()

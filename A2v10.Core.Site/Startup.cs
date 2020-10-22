@@ -70,7 +70,7 @@ namespace A2v10.Core.Site
 			{
 				endpoints.MapControllerRoute(
 					name: "default",
-					pattern: "{lang=uk}/{action=index}/{id?}",
+					pattern: "{lang=en}/{action=index}/{id?}",
 					defaults: new { controller = "home" }
 				);
 			});
