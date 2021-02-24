@@ -13,7 +13,9 @@
 		"uk/downloads",
 		"en/error",
 		"en/introduction",
-		"en/downloads"
+		"en/downloads",
+		"de",
+		"de/introduction"
 	],
 	"static": [
 		"favicon.ico",
