@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>ab2af182-3ae9-4e47-818b-b95becd548fa</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="A2v10.Data.Core" Version="10.0.7239" />
+    <PackageReference Include="A2v10.Data.Core" Version="10.0.7306" />
   </ItemGroup>
 
   <ItemGroup>
