@@ -32,7 +32,6 @@
   <ItemGroup>
     <Folder Include="IconFont\" />
     <Folder Include="wwwroot\css\fonts\" />
-    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 	
 </Project>
