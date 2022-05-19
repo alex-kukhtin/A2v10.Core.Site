@@ -24,6 +24,8 @@ font-converter
 https://www.font-converter.net/en
 
 
+PreviewText for inkscape
+
 //TODO:
 =======
 2. Доделать страницу 404

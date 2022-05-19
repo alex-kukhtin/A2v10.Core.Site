@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: "A2v10site";
-	src: url("/css/fonts/a2v10site.woff?v=10.0.21") format("woff");
+	src: url("/css/fonts/a2v10site.woff?v=10.0.23") format("woff");
 	font-size: 20px;
 	font-display:swap;
 }
@@ -62,6 +62,13 @@
 	color:red;
 }
 
+.ico-nuget::after {
+	content: "\e874";
+}
+.ico-youtube-bw:after {
+	content: "\e873";
+}
+
 .ico-settings:after {
 	content: "\e8aa";
 }
@@ -85,3 +92,4 @@
 .ico-tv-outline::after {
 	content: "\e8af";
 }
+
