@@ -13,7 +13,7 @@
 			]
 		},
 		{
-			"library": "jquery@3.5.1",
+			"library": "jquery@3.7.0",
 			"destination": "wwwroot/lib/jquery/",
 			"files": [
 				"jquery.min.js",
