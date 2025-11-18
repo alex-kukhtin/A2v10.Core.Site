@@ -3,7 +3,7 @@
 	"defaultProvider": "cdnjs",
 	"libraries": [
 		{
-			"library": "vue@2.7.14",
+			"library": "vue@2.7.16",
 			"destination": "wwwroot/lib/vue/",
 			"files": [
 				"vue.min.js",
@@ -13,7 +13,7 @@
 			]
 		},
 		{
-			"library": "jquery@3.7.0",
+			"library": "jquery@3.7.1",
 			"destination": "wwwroot/lib/jquery/",
 			"files": [
 				"jquery.min.js",
@@ -22,7 +22,7 @@
 		},
 		{
 			"provider": "jsdelivr",
-			"library": "bootstrap@latest",
+			"library": "bootstrap@5.3.8",
 			"destination": "wwwroot/lib/bootstrap",
 			"files": [
 				"dist/css/bootstrap.min.css",
